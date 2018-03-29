@@ -1,6 +1,6 @@
 {% set name = "biopandas" %}
-{% set version = "0.2.2" %}
-{% set sha256 = "7e7f0651f86d44ac7ea0364b6d1ca650871bc767ca3d2cd4d9f84ea78428e033" %}
+{% set version = "0.2.3" %}
+{% set sha256 = "974a4700f1aacf7587d6a306034600021a7e9def11f22e4a1125034e84b3702d" %}
 
 package:
   name: {{ name|lower }}
@@ -39,7 +39,7 @@ about:
 
   description: |
     BioPandas is a library for working with Protein Databank Files(PDB)
-    written in Python 2.7 and Python 3.5. 
+    written in Python 2.7 and Python 3.6. 
   doc_url: http://rasbt.github.io/biopandas/
   dev_url: https://github.com/rasbt/biopandas
 
