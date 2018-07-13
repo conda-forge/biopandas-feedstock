@@ -16,14 +16,15 @@ written in Python 2.7 and Python 3.6.
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/biopandas-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/biopandas-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/biopandas-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/biopandas-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/biopandas-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/biopandas-feedstock/branch/master)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/biopandas-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/biopandas-feedstock)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/biopandas/badges/version.svg)](https://anaconda.org/conda-forge/biopandas)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/biopandas/badges/downloads.svg)](https://anaconda.org/conda-forge/biopandas)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-biopandas-green.svg)](https://anaconda.org/conda-forge/biopandas) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/biopandas.svg)](https://anaconda.org/conda-forge/biopandas) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/biopandas.svg)](https://anaconda.org/conda-forge/biopandas) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/biopandas.svg)](https://anaconda.org/conda-forge/biopandas) |
 
 Installing biopandas
 ====================
