@@ -1,6 +1,6 @@
 {% set name = "biopandas" %}
-{% set version = "0.2.3" %}
-{% set sha256 = "974a4700f1aacf7587d6a306034600021a7e9def11f22e4a1125034e84b3702d" %}
+{% set version = "0.2.4" %}
+{% set sha256 = "75b44658070eb1473c2e24f91940f7ec8b9c7b2678b8ae0df71f39a519452985" %}
 
 package:
   name: {{ name|lower }}
@@ -13,7 +13,7 @@ source:
 
 build:
   noarch: python
-  number: 1
+  number: 0
   script: python -m pip install --no-deps --ignore-installed .
 
 requirements:
