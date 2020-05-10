@@ -36,7 +36,8 @@ test:
 
 about:
   home: http://github.com/rasbt/biopandas
-  license: BSD 3-clause
+  license: BSD-3-Clause
+  license_family: BSD
   license_file: LICENSE.txt
   summary: 'Molecular Structures in Pandas DataFrames'
 
