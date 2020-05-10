@@ -1,0 +1,14 @@
+--- setup.py
++++ setup.py
+@@ -19,10 +19,7 @@
+       author_email='mail@sebastianraschka.com',
+       url='https://github.com/rasbt/biopandas',
+       packages=find_packages(),
+-      package_data={'': ['LICENSE.txt',
+-                         'README.md',
+-                         'requirements.txt']
+-                    },
++      package_data={'': ['README.md']},
+       include_package_data=True,
+       install_requires=install_reqs,
+       license='BSD 3-Clause',
