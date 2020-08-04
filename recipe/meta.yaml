@@ -1,6 +1,6 @@
 {% set name = "biopandas" %}
-{% set version = "0.2.5" %}
-{% set sha256 = "0c3f770dabf27a4b405ed7606ce90f62e47f3d85d7385b13b8a7ae9964ac8bec" %}
+{% set version = "0.2.6" %}
+{% set sha256 = "7c6cb7d93b08071a4f3f85fe3a8e60c2ddb24eed6552ec404a98a8afb2d8d91e" %}
 
 package:
   name: {{ name|lower }}
@@ -16,7 +16,7 @@ source:
 build:
   noarch: python
   number: 0
-  script: "{{ PYTHON }} -m pip install . -vv"
+  script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
@@ -39,7 +39,7 @@ about:
   license: BSD-3-Clause
   license_family: BSD
   license_file: LICENSE.txt
-  summary: 'Molecular Structures in Pandas DataFrames'
+  summary: Molecular Structures in Pandas DataFrames
 
   description: |
     BioPandas is a library for working with Protein Databank Files(PDB) written
