@@ -5,7 +5,7 @@ Home: http://github.com/rasbt/biopandas
 
 Package license: BSD-3-Clause
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: Molecular Structures in Pandas DataFrames
 
