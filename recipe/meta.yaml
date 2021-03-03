@@ -12,17 +12,17 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  noarch: python
+  noarch: python >=3.6
   number: 0
   script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
     - pip
-    - python
+    - python >=3.6
     - setuptools
   run:
-    - python
+    - python >=3.6
     - numpy >=1.16.2
     - pandas >=0.24.2
 
