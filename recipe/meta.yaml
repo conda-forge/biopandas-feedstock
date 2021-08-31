@@ -19,10 +19,10 @@ build:
 requirements:
   host:
     - pip
-    - python >= 3.6
+    - python >=3.6
     - setuptools
   run:
-    - python >= 3.6
+    - python >=3.6
     - numpy >=1.16.2
     - pandas >=0.24.2
 
