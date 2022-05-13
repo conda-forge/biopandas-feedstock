@@ -1,6 +1,6 @@
 {% set name = "biopandas" %}
-{% set version = "0.4.0" %}
-{% set sha256 = "fa340b525100abe1fc2000caf27c7c1077b7ea2693b8c848073d8695538e8764" %}
+{% set version = "0.4.1" %}
+{% set sha256 = "f1c3526f5385b8110ec64b26ac50be43a6f53feda61dd48109d8a883b7f85518" %}
 
 package:
   name: {{ name|lower }}
