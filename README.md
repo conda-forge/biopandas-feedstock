@@ -1,7 +1,7 @@
 About biopandas
 ===============
 
-Home: http://github.com/rasbt/biopandas
+Home: https://github.com/BioPandas/biopandas
 
 Package license: BSD-3-Clause
 
@@ -9,9 +9,9 @@ Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/biopandas-feeds
 
 Summary: Molecular Structures in Pandas DataFrames
 
-Development: https://github.com/rasbt/biopandas
+Development: https://github.com/BioPandas/biopandas
 
-Documentation: http://rasbt.github.io/biopandas/
+Documentation: http://biopandas.github.io/biopandas/
 
 BioPandas is a library for working with Protein Databank Files(PDB) written
 in Python 2.7 and Python 3.6.
