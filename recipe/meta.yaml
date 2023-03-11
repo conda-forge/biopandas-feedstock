@@ -13,7 +13,7 @@ source:
 
 build:
   noarch: python
-  number: 0
+  number: 1
   script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
@@ -33,7 +33,7 @@ test:
     - biopandas.testutils
 
 about:
-  home: http://github.com/rasbt/biopandas
+  home: http://github.com/BioPandas/biopandas
   license: BSD-3-Clause
   license_family: BSD
   license_file: LICENSE.txt
@@ -42,8 +42,8 @@ about:
   description: |
     BioPandas is a library for working with Protein Databank Files(PDB) written
     in Python 2.7 and Python 3.6.
-  doc_url: http://rasbt.github.io/biopandas/
-  dev_url: https://github.com/rasbt/biopandas
+  doc_url: http://biopandas.github.io/biopandas/
+  dev_url: https://github.com/BioPandas/biopandas
 
 extra:
   recipe-maintainers:
