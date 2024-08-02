@@ -31,7 +31,6 @@ test:
   imports:
     - biopandas
     - biopandas.pdb
-    - biopandas.testutils
 
 about:
   home: http://github.com/BioPandas/biopandas
