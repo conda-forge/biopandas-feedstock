@@ -1,6 +1,6 @@
 {% set name = "biopandas" %}
-{% set version = "0.5.1" %}
-{% set sha256 = "218021e1ed8b24150515a40ee2d4a7e4b4723b113f15d1369d5bbe1a8d966f04" %}
+{% set version = "0.5.2" %}
+{% set sha256 = "69df1cd606eed0dde594bcf6cf3ef2fd718fefa935db7bcfa1969b252e183545" %}
 
 package:
   name: {{ name|lower }}
@@ -8,12 +8,12 @@ package:
 
 source:
   fn: {{ name }}-{{ version }}.tar.gz
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
   sha256: {{ sha256 }}
 
 build:
   noarch: python
-  number: 1
+  number: 0
   script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
